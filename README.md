@@ -14,10 +14,10 @@ For a more complete overview of disclose.io, a presentation from GRIMMCon is ava
 *(Note: While we've engaged the legal opinion of many, this does not constitute legal advice. Please consult your legal counsel for the specific suitability of the disclose.io terms in your organization.)*
 
 1. Choose the [legal terms](https://github.com/disclose/terms) that best fit your vulnerabilty disclosure or bug bounty progam.
-2. Add the appropriate [disclose.io logo](https://github.com/disclose/disclose/logos) to your public program brief.
-3. Submit a pull request to add your program to the open-source disclose.io [program list](github.com/disclose/disclose/program-list).
+2. Add the appropriate [disclose.io logo](https://github.com/disclose/seal) to your public program brief.
+3. Submit a pull request to add your program to the open-source disclose.io [program list](https://github.com/disclose/list/blob/master/program-list/program-list.json).
 4. Let the world know you're joining the movement!
-4. Contribute back! We're looking for lawyers, hackers, and experts to collaborate. Check our [issues log](https://github.com/disclose/disclose/issues).
+4. Contribute back! We're looking for lawyers, hackers, and experts to collaborate. Check our [issues log](https://github.com/disclose/list/issues).
 
 ## Core terms 
 
