@@ -25,7 +25,6 @@ Policies missing any of the core tenets above, but that still contain a good-fai
 ### Additional terms
 
 In each template we've also provided boilerplate examples for the additional section.  
- 
 - **Scope** (Required) – A complete list of "In-Scope" properties for which the organization is explicitly allowing and encouraging good-faith security research. Keep in mind that a true vulnerability disclosure program considers the entire attack surface of the organization running the program, so erring on the side of inclusiveness is best practice with respect to scope.
 - **Out-of-Scope** (Optional) - A non-exhaustive list of systems and security testing activities that the organization strongly wishes to discourage testing against, and
 - **Rewards** (Optional) – Information on whether or not the program offers payment for valid, unique issues, as well as the type and parameters of that compensation.
@@ -40,8 +39,7 @@ In each template we've also provided boilerplate examples for the additional sec
 
 ## Next steps 
 
-Once you've published your policy, you can:
-
+Once you've published your policy, you can:  
 - Add the appropriate [disclose.io seal](https://github.com/disclose/dioseal) to your public program brief,
 - Submit a pull request to add your program to the [open-source disclose.io program list](https://github.com/disclose/diodb),
 - Let the world know you're joining the movement!
