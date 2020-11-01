@@ -33,7 +33,7 @@ In each template we've also provided boilerplate examples for the additional sec
 
 ### Disclosure types
 
-- **Coordinated Disclosure**: A researcher can share details of the vulnerability after a fix has been applied and the program owner has provided permission to disclose, OR after 90 days from submission, whichever is sooner;
+- **Coordinated Disclosure**: A researcher can share details of the vulnerability after a fix has been applied and the program owner has provided permission to disclose or after a clearly-stated time has passed from submission, whichever is sooner;
 - **Discretionary Disclosure**: The researcher or the program owner can request mutual permission to share details of the vulnerability after approval is explicitly received; or
 - **Non-Disclosure**: Researchers are required to keep vulnerability details and the existence of the program itself confidential.
 
