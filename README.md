@@ -36,9 +36,9 @@ Policies missing any of the core tenets above, but that still contain a good-fai
 
 ### Disclose.io dioseal Status
 Disclose.io maintains four levels of best-practice attainment:
-- **Basic** - A publicly available Policy and Official Channel exist.
-- **Partial **- Basic, with the addition of **Partial Safe Harbor** provisions.
-- **Full **- Basic, with the addition of **Full Safe Harbor** provisions.
+- **Basic**: A publicly available Policy and Official Channel exist.
+- **Partial **: Basic, with the addition of **Partial Safe Harbor** provisions.
+- **Full **: Basic, with the addition of **Full Safe Harbor** provisions.
 - **Full with CVD**: Full, with the addition of a **Coordinated Disclosure Policy** that includes a proactive disclosure timeline.
 
 ### Additional terms
