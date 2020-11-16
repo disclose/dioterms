@@ -11,7 +11,7 @@
 ## Choosing terms 
 Organizations should first choose the boilerplate that is the best fit to their organization. The dioterms repo contains a number of different options:
 
-* [Generic terms](https://github.com/disclose/dioterms/blob/master/generic-core-terms.md) designed to provide maximum flexibility whilst maintaining bi-lateral safety and readability,
+* Core terms for [VDP](/core-terms-vdp.md) and [BBP](core-terms-bbp.md) designed to provide maximum flexibility whilst maintaining bi-lateral safety and readability,
 * [Regionalized terms](https://github.com/disclose/dioterms/tree/master/regional) which accommodate the laws and languages of country or jurisdiction of the organization,
 * [Verticalized terms](https://github.com/disclose/dioterms/tree/master/vertical) which take the nuances of different industries or use-cases (e.g. election infrastructure) into account, and
 * [Simple Safe Harbor](https://github.com/disclose/dioterms/tree/simple-safeharbor/simple-safe-harbor.md) which is designed to add Safe Harbor language to VDPs and bug bounty programs which are already in place.
