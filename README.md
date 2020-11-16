@@ -2,6 +2,12 @@
 
 > Note: While we've engaged the legal opinion of many, this does not constitute legal advice. Please consult your legal counsel for the specific suitability of the disclose.io terms in your organization.)
 
+## Navigating the dioterms Repo
+- Core terms: The core terms are the primary documents in the repo. The language in these terms is designed to provide maximum flexibility whilst maintaining bi-lateral safety and readability, and accomodating varying legal environments for both the finder and the vendor. Note that while the [bug bounty terms](core-terms-bbp.md) are a subset of the [vulnerability disclosure policy VDP terms](/core-terms-vdp.md) with additional fields regarding rewards and scope, we've chosen to seperate them to avoid ambiguity between a VDP and a bug bounty.
+  - [Core modules](/core-modules/): The core modules are derived from the Core terms, which are the basis for language and regional legal translation. 
+-  [Regionalized terms](regional): The regionalized terms have been contributed by PSIRTS, disclosure platforms, security policy advocates, and vendor program operators.
+-  [Archive](/archive): This folder contains deprecated or archived terms for posterity and easy reference.
+
 ## Choosing terms 
 Organizations should first choose the boilerplate that is the best fit to their organization. The dioterms repo contains a number of different options:
 
@@ -22,6 +28,19 @@ The intention of Safe Harbor language provided by disclose.io is for it to be fo
 
 Policies missing any of the core tenets above, but that still contain a good-faith statement committing not to pursue legal action on security researchers, meet the criteria for **Partial Safe Harbor**.
 
+### Disclosure types
+
+- **Coordinated Disclosure**: A researcher can share details of the vulnerability after a fix has been applied and the program owner has provided permission to disclose or after a clearly-stated time has passed from submission, whichever is sooner;
+- **Discretionary Disclosure**: The researcher or the program owner can request mutual permission to share details of the vulnerability after approval is explicitly received; or
+- **Non-Disclosure**: Researchers are required to keep vulnerability details and the existence of the program itself confidential, regardless of the fix or any conversations between them and the vendor. Note that non-disclosure is considered inappropriate and generally ineffective as a disclosure type for VDPs.
+
+### Disclose.io dioseal Status
+Disclose.io maintains four levels of best-practice attainment:
+- **Basic** - A publicly available Policy and Official Channel exist.
+- **Partial **- Basic, with the addition of **Partial Safe Harbor** provisions.
+- **Full **- Basic, with the addition of **Full Safe Harbor** provisions.
+- **Full with CVD**: Full, with the addition of a **Coordinated Disclosure Policy** that includes a proactive disclosure timeline.
+
 ### Additional terms
 
 In each template we've also provided boilerplate examples for the additional section.  
@@ -31,18 +50,12 @@ In each template we've also provided boilerplate examples for the additional sec
 - **Official Communication Channels** (Required) – A full list of the communication methods that are made available by the organization to receive and communicate about vulnerability submissions.
 - **Disclosure Policy** (Required) – A clear policy outlining the conditions under which a researcher can disclose the details of a reported issue to third parties. 
 
-### Disclosure types
-
-- **Coordinated Disclosure**: A researcher can share details of the vulnerability after a fix has been applied and the program owner has provided permission to disclose or after a clearly-stated time has passed from submission, whichever is sooner;
-- **Discretionary Disclosure**: The researcher or the program owner can request mutual permission to share details of the vulnerability after approval is explicitly received; or
-- **Non-Disclosure**: Researchers are required to keep vulnerability details and the existence of the program itself confidential.
-
 ## Next steps 
 
 Once you've published your policy, you can:  
 - Add the appropriate [disclose.io seal](https://github.com/disclose/dioseal) to your public program brief,
 - Submit a pull request to add your program to the [open-source disclose.io program list](https://github.com/disclose/diodb),
-- Let the world know you're joining the movement!
+- Let the world know you're joining the initiative!
 - Contribute back to the [disclose.io](https://disclose.io) project! 
 
 ## License
