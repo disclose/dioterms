@@ -34,8 +34,9 @@ Policies missing any of the core tenets above, but that still contain a good-fai
 - **Discretionary Disclosure**: The researcher or the program owner can request mutual permission to share details of the vulnerability after approval is explicitly received; or
 - **Non-Disclosure**: Researchers are required to keep vulnerability details and the existence of the program itself confidential, regardless of the fix or any conversations between them and the vendor. Note that non-disclosure is considered inappropriate and generally ineffective as a disclosure type for VDPs.
 
-### Disclose.io dioseal Status
-Disclose.io maintains four levels of best-practice attainment:
+### Disclose.io Status
+Disclose.io maintains five levels of best-practice attainment:
+- **security.txt**: The subdomain/domain contains a security.txt file only.
 - **Basic**: A publicly available Policy and Official Channel exist.
 - **Partial**: Basic, with the addition of **Partial Safe Harbor** provisions.
 - **Full**: Basic, with the addition of **Full Safe Harbor** provisions.
