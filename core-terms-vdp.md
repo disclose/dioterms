@@ -2,11 +2,11 @@
 
 ## Introduction
 
-[organization] welcomes feedback from security researchers and the general public to help improve our security. If you believe you have discovered a vulnerability, privacy issue, exposed data, or other security issues in any of our assets, we want to hear from you. This policy outlines steps for reporting vulnerabilities to us, what we expect, what you can expect from us.
+[organization] welcomes feedback from security researchers and the general public to help improve our security. If you believe you have discovered a vulnerability, privacy issue, exposed data, or other security issues in any of our assets, we want to hear from you. This policy outlines steps for reporting findings to us, what we expect, what you can expect from us.
 
 ## Scope
 
-This policy applies to any digital assets owned, operated, or maintained by [organization], including public facing websites.
+This policy applies to any information and communications technology owned, operated, or maintained by [organization], including public facing websites.
 
 ## Our Commitments
 
@@ -21,7 +21,7 @@ When working with us, according to this policy, you can expect us to:
 
 In participating in our vulnerability disclosure program in good faith, we ask that you:
 
-- Play by the rules, including following this policy and any other relevant agreements. If there is any inconsistency between this policy and any other applicable terms, the terms of this policy will prevail;
+- Follow the rules, including following this policy and any other relevant agreements. If there is any inconsistency between this policy and any other applicable terms, the terms of this policy will prevail;
 - Report any vulnerability you’ve discovered promptly;
 - Avoid violating the privacy of others, disrupting our systems, destroying data, and/or harming user experience;
 - Use only the Official Channels to discuss vulnerability information with us;

@@ -2,7 +2,7 @@
 
 ## Introduction
 
-[organization] welcomes feedback from security researchers and the general public to help improve our security. If you believe you have discovered a vulnerability, privacy issue, exposed data, or other security issues in any of our assets, we want to hear from you. This policy outlines steps for reporting vulnerabilities to us, what we expect, what you can expect from us.
+[organization] encourages feedback from security researchers and the general public to help improve our security. If you believe you have discovered a vulnerability, privacy issue, exposed data, or other security issues in any of our assets, we want to hear from you. This policy outlines steps for reporting findings, privacy issues or exposed data to us, what we expect, what you can expect from us.
 
 ## Scope
 
@@ -17,18 +17,19 @@ When working with us, according to this policy, you can expect us to:
 - Respond to your report promptly, and work with you to understand and validate your report 
 - Strive to keep you informed about the progress of a vulnerability as it is processed
 - Work to remediate discovered vulnerabilities in a timely manner
+- Provide an award as appropriate
 - Extend Safe Harbor for your vulnerability research that is related to this policy
 
 ## Our Expectations
 
 In participating in our vulnerability disclosure program in good faith, we ask that you:
 
-- Play by the rules, including following this policy and any other relevant agreements. If there is any inconsistency between this policy and any other applicable terms, the terms of this policy will prevail;
-- Report any vulnerability you’ve discovered promptly;
+- Follow the rules, including following this policy and any other relevant agreements. If there is any inconsistency between this policy and any other applicable terms, the terms of this policy will prevail;
+- Report any vulnerability, privacy issue or data exposure you’ve discovered promptly;
 - Avoid violating the privacy of others, disrupting our systems, destroying data, and/or harming user experience;
 - Use only the Official Channels to discuss vulnerability information with us;
 - Handle the confidentiality of details of any discovered vulnerabilities according to our Disclosure Policy;
-- Perform testing only on in-scope systems, and respect systems and activities which are out-of-scope;
+- Perform testing only on in-scope assets, and avoid assets and activities which are out-of-scope;
 - If a vulnerability provides unintended access to data: Limit the amount of data you access to the minimum required for effectively demonstrating a Proof of Concept; and cease testing and submit a report immediately if you encounter any user data during testing, such as Personally Identifiable Information (PII), Personal Healthcare Information (PHI), credit card data, or proprietary information;
 - You should only interact with test accounts you own or with explicit permission from the account holder; and
 - Do not engage in extortion.  

@@ -3,7 +3,7 @@
 > Note: While we've engaged the legal opinion of many, this does not constitute legal advice. Please consult your legal counsel for the specific suitability of the disclose.io terms in your organization.)
 
 ## Navigating the dioterms Repo
-- Core terms: The core terms are the primary documents in the repo. The language in these terms is designed to provide maximum flexibility whilst maintaining bi-lateral safety and readability, and accomodating varying legal environments for both the finder and the vendor. Note that while the [bug bounty terms](core-terms-bbp.md) are a subset of the [vulnerability disclosure policy VDP terms](/core-terms-vdp.md) with additional fields regarding rewards and scope, we've chosen to seperate them to avoid ambiguity between a VDP and a bug bounty.
+- Core terms: The core terms are the primary documents in the repo. The language in these terms is designed for maximum readability. The intent of what is written is to provide maximum flexibility for both the finder/security researcher and the supplier whilst maintaining bi-lateral assurance of protection and accommodating varying legal environments.  Note that while the [bug bounty policy terms](core-terms-bbp.md) are a subset of the [vulnerability disclosure policy (VDP) terms](/core-terms-vdp.md) with additional fields regarding rewards and scope, we've chosen to separate them to avoid ambiguity between a VDP and a bug bounty.
   - [Core modules](/core-modules/): The core modules are derived from the Core terms, which are the basis for language and regional legal translation. 
 -  [Regionalized terms](regional): The regionalized terms have been contributed by PSIRTS, disclosure platforms, security policy advocates, and vendor program operators.
 -  [Archive](/archive): This folder contains deprecated or archived terms for posterity and easy reference.
@@ -21,7 +21,7 @@ Organizations should first choose the boilerplate that is the best fit to their 
 The core requirements for disclose.io's definition of **Full Safe Harbor** are for the policy to provide:
 - Authorization against anti-hacking laws
 - Exemption from anti-circumvention laws 
-- Exemption from violation of the TOS/AUP during security testing
+- Exemption from violation of the Terms of Service (TOS) or Acceptable Use Policy (AUP) during security testing
 - A statement acknowledging good-faith.
 
 The intention of Safe Harbor language provided by disclose.io is for it to be followed specifically, with minor, if any, modifications. If modifications are made, the four tenets laid out above are the most important to address in your policy.
@@ -31,11 +31,11 @@ Policies missing any of the core tenets above, but that still contain a good-fai
 ### Disclosure types
 
 - **Coordinated Disclosure**: A researcher can share details of the vulnerability after a fix has been applied and the program owner has provided permission to disclose or after a clearly-stated time has passed from submission, whichever is sooner;
-- **Discretionary Disclosure**: The researcher or the program owner can request mutual permission to share details of the vulnerability after approval is explicitly received; or
-- **Non-Disclosure**: Researchers are required to keep vulnerability details and the existence of the program itself confidential, regardless of the fix or any conversations between them and the vendor. Note that non-disclosure is considered inappropriate and generally ineffective as a disclosure type for VDPs.
+- **Discretionary Disclosure**: The researcher or the supplier can request mutual permission to share details of the vulnerability after approval is explicitly received; or
+- **Non-Disclosure**: Researchers are required to keep vulnerability details and the existence of the finding itself confidential, regardless of the fix or any conversations between them and the vendor. Note that non-disclosure is considered inappropriate and generally ineffective as a disclosure type for VDPs.
 
 ### Disclose.io Status
-Disclose.io maintains five levels of best-practice attainment:
+Disclose.io maintains five levels of safe harbor best-practice attainment:
 - **security.txt**: The subdomain/domain contains a security.txt file only.
 - **Basic**: A publicly available Policy and Official Channel exist.
 - **Partial**: Basic, with the addition of **Partial Safe Harbor** provisions.
