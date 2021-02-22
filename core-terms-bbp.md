@@ -4,9 +4,17 @@
 
 [organization] welcomes feedback from security researchers and the general public to help improve our security. If you believe you have discovered a vulnerability, privacy issue, exposed data, or other security issues in any of our assets, we want to hear from you. This policy outlines steps for reporting vulnerabilities to us, what we expect, what you can expect from us.
 
-## Scope
+## Systems in Scope
+
+[INSERT LIST HERE]
+
+This policy applies only to any digital assets owned, operated, or maintained by [organization] for which [organization] can legally authorize security testing. Any assets not listed above are out-of-scope for security testing under this policy. 
 
 ## Out of Scope
+
+- Assets or other equipment not owned by parties participating in this policy or not listed in "Systems In Scope."
+
+Vulnerabilities discovered or suspected in out-of-scope systems should be reported to the appropriate vendor or applicable authority. 
 
 ## Rewards
 
@@ -14,10 +22,10 @@
 
 When working with us, according to this policy, you can expect us to:
 
-- Respond to your report promptly, and work with you to understand and validate your report 
-- Strive to keep you informed about the progress of a vulnerability as it is processed
-- Work to remediate discovered vulnerabilities in a timely manner
-- Extend Safe Harbor for your vulnerability research that is related to this policy
+- Respond to your report promptly, and work with you to understand and validate your report;
+- Strive to keep you informed about the progress of a vulnerability as it is processed;
+- Work to remediate discovered vulnerabilities in a timely manner, within our operational contraints; and
+- Extend Safe Harbor for your vulnerability research that is related to this policy.
 
 ## Our Expectations
 
@@ -27,7 +35,7 @@ In participating in our vulnerability disclosure program in good faith, we ask t
 - Report any vulnerability you’ve discovered promptly;
 - Avoid violating the privacy of others, disrupting our systems, destroying data, and/or harming user experience;
 - Use only the Official Channels to discuss vulnerability information with us;
-- Handle the confidentiality of details of any discovered vulnerabilities according to our Disclosure Policy;
+- Provide us a reasonable amount of time (at least [disclosure_window] from initial report, or after the issue is remediated - whichever comes first) to resolve the issue before you disclose it publicly;
 - Perform testing only on in-scope systems, and respect systems and activities which are out-of-scope;
 - If a vulnerability provides unintended access to data: Limit the amount of data you access to the minimum required for effectively demonstrating a Proof of Concept; and cease testing and submit a report immediately if you encounter any user data during testing, such as Personally Identifiable Information (PII), Personal Healthcare Information (PHI), credit card data, or proprietary information;
 - You should only interact with test accounts you own or with explicit permission from the account holder; and
@@ -43,9 +51,11 @@ When conducting vulnerability research, according to this policy, we consider th
 
 - Authorized concerning any applicable anti-hacking laws, and we will not initiate or support legal action against you for accidental, good-faith violations of this policy;
 - Authorized concerning any relevant anti-circumvention laws, and we will not bring a claim against you for circumvention of technology controls;
-- Exempt from restrictions in our Acceptable Usage Policy that would interfere with conducting security research, and we waive those restrictions on a limited basis; and
+- Exempt from restrictions in our Terms of Service (TOS) and/or Acceptable Usage Policy (AUP) that would interfere with conducting security research, and we waive those restrictions on a limited basis; and
 - Lawful, helpful to the overall security of the Internet, and conducted in good faith.
 
 You are expected, as always, to comply with all applicable laws. If legal action is initiated by a third party against you and you have complied with this policy, we will take steps to make it known that your actions were conducted in compliance with this policy.
 
 If at any time you have concerns or are uncertain whether your security research is consistent with this policy, please submit a report through one of our Official Channels before going any further.
+
+> Note that the Safe Harbor applies only to legal claims under the control of the organization participating in this policy, and that the policy does not bind independent third parties.

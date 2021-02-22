@@ -28,6 +28,8 @@ The intention of Safe Harbor language provided by disclose.io is for it to be fo
 
 Policies missing any of the core tenets above, but that still contain a good-faith statement committing not to pursue legal action on security researchers, meet the criteria for **Partial Safe Harbor**.
 
+> Note: Incentives or "bounties" for vulnerability reports are not a prerequisite for Safe Harbor or for a program to be considered a VDP.
+
 ### Disclosure types
 
 - **Coordinated Disclosure**: A researcher can share details of the vulnerability after a fix has been applied and the program owner has provided permission to disclose or after a clearly-stated time has passed from submission, whichever is sooner;
