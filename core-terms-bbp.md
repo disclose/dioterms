@@ -1,14 +1,14 @@
-# [organization] Bug Bounty Policy
+# {{organization}} Bug Bounty Policy
 
 ## Introduction
 
-[organization] welcomes feedback from security researchers and the general public to help improve our security. If you believe you have discovered a vulnerability, privacy issue, exposed data, or other security issues in any of our assets, we want to hear from you. This policy outlines steps for reporting vulnerabilities to us, what we expect, what you can expect from us.
+{{organization}} welcomes feedback from security researchers and the general public to help improve our security. If you believe you have discovered a vulnerability, privacy issue, exposed data, or other security issues in any of our assets, we want to hear from you. This policy outlines steps for reporting vulnerabilities to us, what we expect, what you can expect from us.
 
 ## Systems in Scope
 
 [INSERT LIST HERE]
 
-This policy applies only to any digital assets owned, operated, or maintained by [organization] for which [organization] can legally authorize security testing. Any assets not listed above are out-of-scope for security testing under this policy. 
+This policy applies only to any digital assets owned, operated, or maintained by {{organization}} for which {{organization}} can legally authorize security testing. Any assets not listed above are out-of-scope for security testing under this policy. 
 
 ## Out of Scope
 
@@ -35,7 +35,7 @@ In participating in our vulnerability disclosure program in good faith, we ask t
 - Report any vulnerability you’ve discovered promptly;
 - Avoid violating the privacy of others, disrupting our systems, destroying data, and/or harming user experience;
 - Use only the Official Channels to discuss vulnerability information with us;
-- Provide us a reasonable amount of time (at least [disclosure_window] from the initial report) to resolve the issue before you disclose it publicly;
+- Provide us a reasonable amount of time (at least {{disclosure_window}} from the initial report) to resolve the issue before you disclose it publicly;
 - Perform testing only on in-scope systems, and respect systems and activities which are out-of-scope;
 - If a vulnerability provides unintended access to data: Limit the amount of data you access to the minimum required for effectively demonstrating a Proof of Concept; and cease testing and submit a report immediately if you encounter any user data during testing, such as Personally Identifiable Information (PII), Personal Healthcare Information (PHI), credit card data, or proprietary information;
 - You should only interact with test accounts you own or with explicit permission from the account holder; and
@@ -43,7 +43,7 @@ In participating in our vulnerability disclosure program in good faith, we ask t
 
 ## Official Channels 
 
-Please use [channel] to report security issues, providing all relevant information. The more details you provide, the easier it will be for us to triage and fix the issue.
+Please use {{channel}} to report security issues, providing all relevant information. The more details you provide, the easier it will be for us to triage and fix the issue.
 
 ## Safe Harbor
 
