@@ -2,6 +2,14 @@
 
 > Note: While we've engaged the legal opinion of many, this does not constitute legal advice. Please consult your legal counsel for the specific suitability of the disclose.io terms in your organization.)
 
+### Quick Links
+
+|Take me to...|Link|
+|-|-|
+| Create a Vulnerability Disclosure Program | [https://policymaker.disclose.io/](https://policymaker.disclose.io/) |
+| Learn more at the disclose.io Community Forum  | [https://community.disclose.io](https://community.disclose.io) |
+| Compare thousands of existing company policies  | [https://disclose.io/programs](https://disclose.io/programs)  |
+
 ## Navigating the dioterms Repo
 - Core terms: The core terms are the primary documents in the repo. The language in these terms is designed to provide maximum flexibility whilst maintaining bi-lateral safety and readability, and accommodating varying legal environments for both the finder and the vendor. Note that while the [bug bounty terms](core-terms-bbp.md) are a subset of the [vulnerability disclosure policy VDP terms](/core-terms-vdp.md) with additional fields regarding rewards and scope, we've chosen to separate them to avoid ambiguity between a VDP and a bug bounty.
   - [Core modules](/core-modules/): The core modules are derived from the Core terms, which are the basis for language and regional legal translation. 
