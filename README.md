@@ -1,70 +1,98 @@
-# The disclose.io Terms (dioterms)
+# dioterms — The disclose.io Framework
 
-> Note: While we've engaged the legal opinion of many, this does not constitute legal advice. Please consult your legal counsel for the specific suitability of the disclose.io terms in your organization.)
+The canonical, public-domain reference for **vulnerability disclosure policy language**, **operational practices**, and **program maturity** — maintained by the [disclose.io](https://disclose.io) community.
 
-### Quick Links
+> This repository is the source of truth behind [disclose.io/framework/](https://disclose.io/framework/) and [policymaker.disclose.io](https://policymaker.disclose.io). Everything here is [CC0 1.0](./LICENSE) — public domain. Fork it, adopt it, adapt it, ship it.
 
-|Take me to...|Link|
+> Note: while we've engaged the legal opinion of many, this does not constitute legal advice. Please consult your own counsel for the specific suitability of these terms in your organisation.
+
+## The three pillars
+
+| Pillar | What it is | Directory |
+|--------|-----------|-----------|
+| **Terms** | Legal policy boilerplate — VDP, BBP, safe harbor, regional variants | `core-terms-*.md`, `core-terms/`, `regional/`, `simple-safeharbor/`, `archive/` |
+| **Practices** | Operational playbooks for running a VDP/BBP | [`practices/`](./practices/) |
+| **Maturity** | DIOstatus — the 6-level program maturity model | [`maturity/`](./maturity/) |
+
+## Quick Links
+
+| | |
 |-|-|
-| Create a Vulnerability Disclosure Program | [https://policymaker.disclose.io/](https://policymaker.disclose.io/) |
-| Learn more at the disclose.io Community Forum  | [https://community.disclose.io](https://community.disclose.io) |
-| Compare thousands of existing company policies  | [https://disclose.io/programs](https://disclose.io/programs)  |
+| Generate a personalised policy | [policymaker.disclose.io](https://policymaker.disclose.io) |
+| Canonical reference site | [disclose.io/framework/](https://disclose.io/framework/) |
+| Community forum | [community.disclose.io](https://community.disclose.io) |
+| Compare real-world programs | [disclose.io/programs](https://disclose.io/programs) |
 
-## Navigating the dioterms Repo
-- Core terms: The core terms are the primary documents in the repo. The language in these terms is designed to provide maximum flexibility whilst maintaining bi-lateral safety and readability, and accommodating varying legal environments for both the finder and the vendor. Note that while the [bug bounty terms](core-terms-bbp.md) are a subset of the [vulnerability disclosure policy VDP terms](/core-terms-vdp.md) with additional fields regarding rewards and scope, we've chosen to separate them to avoid ambiguity between a VDP and a bug bounty.
-  - [Core modules](/core-modules/): The core modules are derived from the Core terms, which are the basis for language and regional legal translation. 
--  [Regionalized terms](regional): The regionalized terms have been contributed by PSIRTS, disclosure platforms, security policy advocates, and vendor program operators.
--  [Archive](/archive): This folder contains deprecated or archived terms for posterity and easy reference.
+## Navigating the terms
 
-## Choosing terms 
-Organizations should first choose the boilerplate that is the best fit to their organization. The dioterms repo contains a number of different options:
+- **Core terms** — primary documents. Maximum flexibility with bilateral safety, readability, and accommodation of varying legal environments. [BBP terms](./core-terms-bbp.md) are a superset of [VDP terms](./core-terms-vdp.md) with additional rewards/scope fields. They are kept separate to avoid ambiguity.
+- **[Core modules](./core-terms/)** — modular section fragments derived from the Core terms, used as the basis for regional/vertical translation.
+- **[Regional terms](./regional/)** — contributed by PSIRTs, disclosure platforms, policy advocates, and vendor program operators. Adapt safe-harbor language to local legal and regulatory context.
+- **[Simple Safe Harbor](./simple-safeharbor/)** — condensed safe-harbor clause designed to add protection language to VDPs and BBPs that are already in place.
+- **[Archive](./archive/)** — deprecated or archived terms preserved for reference.
 
-* Core terms for [VDP](/core-terms-vdp.md) and [BBP](core-terms-bbp.md) designed to provide maximum flexibility whilst maintaining bi-lateral safety and readability,
-* [Regionalized terms](https://github.com/disclose/dioterms/tree/master/regional) which accommodate the laws and languages of country or jurisdiction of the organization,
-* [Verticalized terms](https://github.com/disclose/dioterms/tree/master/vertical) which take the nuances of different industries or use-cases (e.g. election infrastructure) into account, and
-* [Simple Safe Harbor](https://github.com/disclose/dioterms/tree/simple-safeharbor/simple-safe-harbor.md) which is designed to add Safe Harbor language to VDPs and bug bounty programs which are already in place.
+## Navigating the practices
 
-### About Safe Harbor
+Operational how-to guidance for running a program day-to-day — the counterpart to the legal text in `terms/`. Current stubs:
 
-The core requirements for disclose.io's definition of **Full Safe Harbor** are for the policy to provide:
-- Authorization against anti-hacking laws
-- Exemption from anti-circumvention laws 
-- Exemption from violation of the TOS/AUP during security testing
-- A statement acknowledging good-faith.
+- [program-launch.md](./practices/program-launch.md) — preflight decisions, scoping, approvals, go-live
+- [triage.md](./practices/triage.md) — intake, severity, deduplication, validation, communication
+- [coordinated-disclosure.md](./practices/coordinated-disclosure.md) — timelines, negotiation, public disclosure, multi-party
+- [safe-harbor-implementation.md](./practices/safe-harbor-implementation.md) — aligning Legal, TOS/AUP, platform agreements
+- [researcher-relations.md](./practices/researcher-relations.md) — communication cadence, recognition, escalation
 
-The intention of Safe Harbor language provided by disclose.io is for it to be followed specifically, with minor, if any, modifications. If modifications are made, the four tenets laid out above are the most important to address in your policy.
+These pages are intentionally thin starting points. Community contribution fills them in over time — [open a PR](https://github.com/disclose/dioterms/pulls).
 
-Policies missing any of the core tenets above, but that still contain a good-faith statement committing not to pursue legal action on security researchers, meet the criteria for **Partial Safe Harbor**.
+## Navigating the maturity model
 
-> Note: Incentives or "bounties" for vulnerability reports are not a prerequisite for Safe Harbor or for a program to be considered a VDP.
+**DIOstatus** is a 6-level self-assessment describing how prepared an organisation is to receive and handle external vulnerability reports.
 
-### Disclosure types
+**Findable → Communicating → Not hostile → Explicitly safe → Accountable.**
 
-- **Coordinated Disclosure**: A researcher can share details of the vulnerability after a fix has been applied and the program owner has provided permission to disclose or after a clearly-stated time has passed from submission, whichever is sooner;
-- **Discretionary Disclosure**: The researcher or the program owner can request mutual permission to share details of the vulnerability after approval is explicitly received; or
-- **Non-Disclosure**: Researchers are required to keep vulnerability details and the existence of the program itself confidential, regardless of the fix or any conversations between them and the vendor. Note that non-disclosure is considered inappropriate and generally ineffective as a disclosure type for VDPs.
+See [maturity/](./maturity/) for the per-level definitions and progression guide.
 
-### Disclose.io Status
-Disclose.io maintains five levels of best-practice attainment:
-- **security.txt**: The subdomain/domain contains a security.txt file only.
-- **Basic**: A publicly available Policy and Official Channel exist.
-- **Partial**: Basic, with the addition of **Partial Safe Harbor** provisions.
-- **Full**: Basic, with the addition of **Full Safe Harbor** provisions.
-- **Full with CVD**: Full, with the addition of a **Coordinated Disclosure Policy** that includes a proactive disclosure timeline.
+## About Safe Harbor
 
-### Additional terms
+The core requirements for **Full Safe Harbor** are for the policy to provide:
 
-In each template we've also provided boilerplate examples for the additional section.  
-- **Scope** (Required) – A complete list of "In-Scope" properties for which the organization is explicitly allowing and encouraging good-faith security research. Keep in mind that a true vulnerability disclosure program considers the entire attack surface of the organization running the program, so erring on the side of inclusiveness is best practice with respect to scope.
-- **Out-of-Scope** (Optional) - A non-exhaustive list of systems and security testing activities that the organization strongly wishes to discourage testing against, and
-- **Rewards** (Optional) – Information on whether or not the program offers payment for valid, unique issues, as well as the type and parameters of that compensation.
-- **Official Communication Channels** (Required) – A full list of the communication methods that are made available by the organization to receive and communicate about vulnerability submissions.
-- **Disclosure Policy** (Required) – A clear policy outlining the conditions under which a researcher can disclose the details of a reported issue to third parties. 
+- Authorisation against anti-hacking laws (CFAA, CMA, equivalent)
+- Exemption from anti-circumvention laws (DMCA, equivalent)
+- Exemption from violation of the organisation's own TOS/AUP during security testing
+- A statement acknowledging good-faith research
 
-## Next steps 
+The intent is for this language to be followed specifically, with minor modifications if any. If you modify, preserve the four tenets above.
 
-Once you've published your policy, you can:  
-- Add the appropriate [disclose.io seal](https://github.com/disclose/dioseal) to your public program brief,
-- Submit a pull request to add your program to the [open-source disclose.io program list](https://github.com/disclose/diodb),
-- Let the world know you're joining the initiative!
-- Contribute back to the [disclose.io](https://disclose.io) project! 
+Policies missing any of the core tenets but containing a good-faith non-pursuit commitment meet the criteria for **Partial Safe Harbor**.
+
+> Incentives or "bounties" for vulnerability reports are not a prerequisite for Safe Harbor or for a program to be considered a VDP.
+
+## Disclosure types
+
+- **Coordinated Disclosure** — researcher may share details after a fix has been applied and the program owner has granted permission, or after a clearly-stated time has passed from submission, whichever is sooner.
+- **Discretionary Disclosure** — researcher or program owner may request mutual permission to share details after explicit approval.
+- **Non-Disclosure** — researchers are required to keep details and the existence of the program confidential. Generally inappropriate for VDPs.
+
+## Additional policy sections (templated)
+
+- **Scope** (required) — explicit "in-scope" assets. Err on the side of inclusiveness.
+- **Out-of-Scope** (optional) — systems or activities the organisation discourages testing against.
+- **Rewards** (optional, BBPs only) — payment policy and parameters.
+- **Official Communication Channels** (required) — complete list of intake methods.
+- **Disclosure Policy** (required) — conditions under which researchers may disclose to third parties.
+
+## Contributing
+
+- Regional variants — fork → add `regional/XXX-core-terms.md` → PR
+- Core terms changes — RFC-style: open a GitHub Discussion, then a PR
+- Practices — PR against `practices/*.md`
+- Maturity — PR against `maturity/*.md`
+- Translations — fork → add locale files → PR
+
+`CODEOWNERS` routes reviews to the appropriate team.
+
+## Once you've published your policy
+
+- Add the [disclose.io seal](https://github.com/disclose/dioseal) to your public program brief
+- Submit a PR to add your program to [diodb](https://github.com/disclose/diodb)
+- Let the world know you've joined the initiative
+- Contribute back to the framework you just adopted

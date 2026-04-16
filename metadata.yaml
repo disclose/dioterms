@@ -1,0 +1,41 @@
+name: "disclose.io Framework (dioterms)"
+description: "Canonical, public-domain reference for vulnerability disclosure policy language, operational practices, and program maturity."
+license: "CC0-1.0"
+repository: "https://github.com/disclose/dioterms"
+website: "https://disclose.io/framework/"
+
+pillars:
+  - id: terms
+    name: "Legal Terms"
+    description: "Canonical policy boilerplate — VDP, BBP, safe harbor, regional variants."
+    paths:
+      - core-terms-vdp.md
+      - core-terms-bbp.md
+      - core-terms/
+      - regional/
+      - simple-safeharbor/
+      - archive/
+
+  - id: practices
+    name: "Operational Practices"
+    description: "How-to guidance for running a vulnerability disclosure program in the disclose.io tradition."
+    paths:
+      - practices/
+
+  - id: maturity
+    name: "DIOstatus Maturity Model"
+    description: "A six-level progression from no-program (Level 0) to full safe harbor with CVD (Level 5)."
+    paths:
+      - maturity/
+
+variables:
+  organization:
+    description: "The organisation's name."
+    placeholder: "[Organization Name]"
+  channel:
+    description: "The security reporting channel (email, form URL, or platform)."
+    placeholder: "[reporting channel]"
+  disclosure_window:
+    description: "Number of days until the coordinated-disclosure timeline expires."
+    placeholder: "[number of days]"
+    default: "90"
