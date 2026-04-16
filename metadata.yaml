@@ -23,7 +23,7 @@ pillars:
       - practices/
 
   - id: maturity
-    name: "DIOstatus Maturity Model"
+    name: "diostatus Maturity Model"
     description: "A six-level progression from no-program (Level 0) to full safe harbor with CVD (Level 5)."
     paths:
       - maturity/

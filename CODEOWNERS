@@ -15,7 +15,7 @@
 # Operational playbooks — practitioner review.
 /practices/**              @disclose/practitioner-reviewers
 
-# DIOstatus maturity model — practitioner review.
+# diostatus maturity model — practitioner review.
 /maturity/**               @disclose/practitioner-reviewers
 
 # Meta files.

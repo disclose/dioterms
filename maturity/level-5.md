@@ -20,7 +20,7 @@ Everything in Level 4, plus a proactive, public coordinated disclosure timeline 
 
 ## Beyond Level 5
 
-DIOstatus stops at 5 intentionally — the jump from "no program" to Level 5 is already a years-long journey for most organisations. Beyond Level 5, differences become practice- and culture-based rather than policy-based:
+diostatus stops at 5 intentionally — the jump from "no program" to Level 5 is already a years-long journey for most organisations. Beyond Level 5, differences become practice- and culture-based rather than policy-based:
 
 - Proactive outreach to researchers
 - Published payout scales (for BBPs)

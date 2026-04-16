@@ -12,7 +12,7 @@ The canonical, public-domain reference for **vulnerability disclosure policy lan
 |--------|-----------|-----------|
 | **Terms** | Legal policy boilerplate — VDP, BBP, safe harbor, regional variants | `core-terms-*.md`, `core-terms/`, `regional/`, `simple-safeharbor/`, `archive/` |
 | **Practices** | Operational playbooks for running a VDP/BBP | [`practices/`](./practices/) |
-| **Maturity** | DIOstatus — the 6-level program maturity model | [`maturity/`](./maturity/) |
+| **Maturity** | diostatus — the 6-level program maturity model | [`maturity/`](./maturity/) |
 
 ## Quick Links
 
@@ -45,7 +45,7 @@ These pages are intentionally thin starting points. Community contribution fills
 
 ## Navigating the maturity model
 
-**DIOstatus** is a 6-level self-assessment describing how prepared an organisation is to receive and handle external vulnerability reports.
+**diostatus** is a 6-level self-assessment describing how prepared an organisation is to receive and handle external vulnerability reports.
 
 **Findable → Communicating → Not hostile → Explicitly safe → Accountable.**
 

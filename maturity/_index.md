@@ -1,12 +1,12 @@
-# DIOstatus — The disclose.io Maturity Model
+# diostatus — The disclose.io Maturity Model
 
 Recognition for early adopters and a clear path towards best practices.
 
 ## Let's send best practice viral
 
-DIOstatus provides recognition to early adopters of vulnerability disclosure programs, and a clear path towards best practices for those wanting to become more advanced.
+diostatus provides recognition to early adopters of vulnerability disclosure programs, and a clear path towards best practices for those wanting to become more advanced.
 
-![DIOstatus Maturity Model — Level 0 to Level 5](https://disclose.io/uploads/discloseio-maturity-climb-v8.jpg)
+![diostatus Maturity Model — Level 0 to Level 5](https://disclose.io/uploads/discloseio-maturity-climb-v8.jpg)
 
 ## The progression in one line
 
