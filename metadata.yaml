@@ -1,5 +1,5 @@
 name: "disclose.io Framework (dioterms)"
-description: "Canonical, public-domain reference for vulnerability disclosure policy language, operational practices, and program maturity."
+description: "Canonical, public-domain reference for vulnerability disclosure policy language and program maturity."
 license: "CC0-1.0"
 repository: "https://github.com/disclose/dioterms"
 website: "https://disclose.io/framework/"
@@ -7,26 +7,35 @@ website: "https://disclose.io/framework/"
 pillars:
   - id: terms
     name: "Legal Terms"
-    description: "Canonical policy boilerplate — VDP, BBP, safe harbor, regional variants."
+    description: "The four canonical policy templates (mirrored to policymaker.disclose.io) plus BBP, regional variants, and archive."
     paths:
-      - core-terms-vdp.md
-      - core-terms-bbp.md
-      - core-terms/
+      - terms/
+      - bbp/
       - regional/
-      - simple-safeharbor/
       - archive/
-
-  - id: practices
-    name: "Operational Practices"
-    description: "How-to guidance for running a vulnerability disclosure program in the disclose.io tradition."
-    paths:
-      - practices/
 
   - id: maturity
     name: "diostatus Maturity Model"
     description: "A six-level progression from no-program (Level 0) to full safe harbor with CVD (Level 5)."
     paths:
       - maturity/
+
+canonical_templates:
+  description: "The four term templates that mirror policymaker.disclose.io 1:1."
+  locales_file: terms/languages.json
+  templates:
+    - id: vdp
+      policymaker_template: disclose-io-vdp
+      path: terms/vdp/
+    - id: vdp-with-cvd
+      policymaker_template: disclose-io-vdp-with-cvd
+      path: terms/vdp-with-cvd/
+    - id: safe-harbor
+      policymaker_template: disclose-io-safe-harbor
+      path: terms/safe-harbor/
+    - id: simple-safe-harbor
+      policymaker_template: disclose-io-simple-safe-harbor
+      path: terms/simple-safe-harbor/
 
 variables:
   organization:
