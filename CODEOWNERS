@@ -5,15 +5,17 @@
 # Default — legal/terms reviewers own everything unless overridden below.
 *                          @disclose/legal-reviewers
 
-# Legal terms — strict review.
-/core-terms-*.md           @disclose/legal-reviewers
-/core-terms/**             @disclose/legal-reviewers
-/regional/**               @disclose/legal-reviewers
-/simple-safeharbor/**      @disclose/legal-reviewers
-/archive/**                @disclose/legal-reviewers
+# Four canonical term templates — strict review.
+/terms/**                  @disclose/legal-reviewers
 
-# Operational playbooks — practitioner review.
-/practices/**              @disclose/practitioner-reviewers
+# BBP template — strict review.
+/bbp/**                    @disclose/legal-reviewers
+
+# Regional variants — strict review.
+/regional/**               @disclose/legal-reviewers
+
+# Archived/deprecated content — strict review.
+/archive/**                @disclose/legal-reviewers
 
 # diostatus maturity model — practitioner review.
 /maturity/**               @disclose/practitioner-reviewers
