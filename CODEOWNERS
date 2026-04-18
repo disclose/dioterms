@@ -1,0 +1,26 @@
+# Review routing for dioterms — the disclose.io framework repository.
+#
+# Syntax: https://docs.github.com/en/repositories/managing-your-repositories-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default — legal/terms reviewers own everything unless overridden below.
+*                          @disclose/legal-reviewers
+
+# Legal terms — strict review.
+/core-terms-*.md           @disclose/legal-reviewers
+/core-terms/**             @disclose/legal-reviewers
+/regional/**               @disclose/legal-reviewers
+/simple-safeharbor/**      @disclose/legal-reviewers
+/archive/**                @disclose/legal-reviewers
+
+# Operational playbooks — practitioner review.
+/practices/**              @disclose/practitioner-reviewers
+
+# diostatus maturity model — practitioner review.
+/maturity/**               @disclose/practitioner-reviewers
+
+# Meta files.
+/README.md                 @disclose/maintainers
+/CHANGELOG.md              @disclose/maintainers
+/CODEOWNERS                @disclose/maintainers
+/metadata.yaml             @disclose/maintainers
+/LICENSE                   @disclose/maintainers
