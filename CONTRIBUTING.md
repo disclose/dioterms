@@ -17,11 +17,11 @@ Thanks for helping improve the **disclose.io Framework**. This repository is the
 ## How to contribute, by pillar
 
 - **Canonical term language** (`terms/vdp`, `terms/vdp-with-cvd`, `terms/safe-harbor`, `terms/simple-safe-harbor`) — these mirror policymaker 1:1 and carry legal weight. **Substantive wording changes require an RFC:** open a [GitHub Discussion](https://github.com/disclose/dioterms/discussions) first so the change can be debated, then a PR referencing it. Typo/formatting fixes can PR directly.
-- **BBP template** (`bbp/`) — PR directly; RFC for substantive wording.
+- **BBP template** (`terms/bbp/`) — PR directly; RFC for substantive wording.
 - **Regional variants** (`regional/`) — fork → add or edit `regional/<file>.md` → PR. New jurisdictions welcome; adapt the safe-harbor language to local law and say what you changed and why.
 - **Practices** (`practices/`) — PR against `practices/*.md`. Operational conduct guidance only, not policy templates. External documents may carry their own license (see Provenance below).
 - **Maturity** (`maturity/`) — PR against `maturity/*.md`.
-- **Translations** — add `<locale>.md` alongside `en-US.md` in a `terms/*/` folder (preserve the exact markdown structure), then add the locale to `terms/languages.json`. Use correct **[BCP-47](https://www.rfc-editor.org/info/bcp47)** codes (`fr-FR`, `de-DE`, …). ⚠️ Do **not** copy the existing `np-NP` file's code as a pattern — it is a known legacy misnomer for Nepali (BCP-47 is `ne-NP`); a corrective rename is planned and coordinated with policymaker.
+- **Translations** — add `<locale>.md` alongside `en-US.md` in a `terms/*/` folder (preserve the exact markdown structure), then add the locale to `terms/languages.json`. Use correct **[BCP-47](https://www.rfc-editor.org/info/bcp47)** codes (`fr-FR`, `de-DE`, `ne-NP` for Nepali, …). *(The legacy `np-NP` misnomer was corrected to `ne-NP` in Phase B — keep policymaker's locale list aligned.)*
 
 ## Provenance rules (please read)
 
@@ -36,7 +36,7 @@ Preserving where each term came from is a first-class goal of this repo.
 
 Two downstream projects read this repo, so **moving or renaming files can break them** — flag such PRs so maintainers can coordinate:
 
-- **`disclose/website`** builds `disclose.io/framework/` from this repo via a git submodule and reads specific paths (`terms/*/en-US.md`, `bbp/en-US.md`, `practices/…`, `maturity/level-*.md`). A path change here needs a matching change in its `scripts/preprocess-framework.js` and a submodule-pin bump.
+- **`disclose/website`** builds `disclose.io/framework/` from this repo via a git submodule and reads specific paths (`terms/*/en-US.md`, `terms/bbp/en-US.md`, `practices/…`, `maturity/level-*.md`). A path change here needs a matching change in its `scripts/preprocess-framework.js` and a submodule-pin bump.
 - **`policymaker.disclose.io`** carries the four canonical templates. Keep `terms/` aligned with it; `terms/languages.json` mirrors policymaker's locale list.
 
 Content-only edits (including provenance headers) don't affect either.

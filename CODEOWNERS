@@ -9,7 +9,7 @@
 /terms/**                  @disclose/legal-reviewers
 
 # BBP template — strict review.
-/bbp/**                    @disclose/legal-reviewers
+/terms/bbp/**                    @disclose/legal-reviewers
 
 # Regional variants — strict review.
 /regional/**               @disclose/legal-reviewers

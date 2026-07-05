@@ -7,7 +7,7 @@
 ## Pillar
 
 - [ ] Terms — canonical (`terms/`)
-- [ ] Terms — BBP (`bbp/`)
+- [ ] Terms — BBP (`terms/bbp/`)
 - [ ] Terms — regional (`regional/`)
 - [ ] Practices (`practices/`)
 - [ ] Maturity (`maturity/`)

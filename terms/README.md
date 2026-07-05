@@ -13,7 +13,7 @@ Each folder contains one file per supported language, named after the locale:
 
 - `en-US.md` — English (US)
 - `ar.md` — Arabic
-- `np-NP.md` — Nepali
+- `ne-NP.md` — Nepali
 
 The supported-locale list lives in [`languages.json`](./languages.json).
 
