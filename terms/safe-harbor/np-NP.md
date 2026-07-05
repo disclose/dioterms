@@ -1,3 +1,12 @@
+<!--
+  Provenance — disclose.io Framework (dioterms) · translation
+  Translation of `en-US.md` in this folder, originally mirrored from policymaker.disclose.io (which also serves it directly).
+  Keep in sync with the `en-US` source here and the policymaker template of the same name.
+  Authorship & change history: run `git log --follow` on this file.
+  License: CC0-1.0 (public domain) — see /LICENSE.
+  Preserve provenance: always `git mv` — never delete-and-recreate — so blame survives.
+-->
+
 # सरल सुरक्षित हार्बर 
 
 यदि तपाइँ तपाइँको सुरक्षा अनुसन्धान को समयमा यो नीति को पालना गर्दै हुनुहुन्छ भने, हामी उक्त कार्यलाई अधिकृत मान्ने हुनेछ। 

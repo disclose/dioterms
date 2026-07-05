@@ -1,3 +1,11 @@
+<!--
+  Provenance — disclose.io Framework (dioterms) · regional variant
+  Contributed to https://github.com/disclose/dioterms by the disclose.io community.
+  Original contributor(s) & change history: run `git log --follow` on this file.
+  License: CC0-1.0 (public domain) — see /LICENSE — unless a contributor header below states otherwise.
+  Adapts disclose.io safe-harbor language to a specific legal/regulatory jurisdiction.
+-->
+
 # Introduction
 
 # Expectations

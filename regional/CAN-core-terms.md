@@ -1,3 +1,11 @@
+<!--
+  Provenance — disclose.io Framework (dioterms) · regional variant
+  Contributed to https://github.com/disclose/dioterms by the disclose.io community.
+  Original contributor(s) & change history: run `git log --follow` on this file.
+  License: CC0-1.0 (public domain) — see /LICENSE — unless a contributor header below states otherwise.
+  Adapts disclose.io safe-harbor language to a specific legal/regulatory jurisdiction.
+-->
+
 # Introduction
 
 Security is core to our values, and we value the input of hackers acting in good faith to help us maintain a high standard for the security and privacy for our users. This includes encouraging responsible vulnerability research and disclosure. This policy sets out our definition of good faith in the context of finding and reporting vulnerabilities, as well as what you can expect from us in return.

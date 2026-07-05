@@ -1,3 +1,11 @@
+<!--
+  Provenance — disclose.io Framework (dioterms) · regional variant
+  Contributed to https://github.com/disclose/dioterms by the disclose.io community.
+  Original contributor(s) & change history: run `git log --follow` on this file.
+  License: CC0-1.0 (public domain) — see /LICENSE — unless a contributor header below states otherwise.
+  Adapts disclose.io safe-harbor language to a specific legal/regulatory jurisdiction.
+-->
+
 # Introductie
 
 Wij hechten veel belang aan cyberveiligheid, en waarderen meldingen van ethische hackers die ons helpen om onze hoge privacy- en veiligheidsnormen in stand te houden. Wij steunen ethisch onderzoek naar kwetsbaarheden en responsible disclosure.
