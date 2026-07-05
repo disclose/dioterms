@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Substantive term-wording change (RFC)
+    url: https://github.com/disclose/dioterms/discussions
+    about: Changes to canonical legal term wording start as a Discussion so they can be debated before a PR.
+  - name: Generate a policy
+    url: https://policymaker.disclose.io
+    about: Just need a policy for your org? Use policymaker — no issue required.
+  - name: Community forum
+    url: https://community.disclose.io
+    about: Questions and general discussion about disclose.io.
