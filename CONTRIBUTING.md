@@ -21,7 +21,7 @@ Thanks for helping improve the **disclose.io Framework**. This repository is the
 - **Regional variants** (`regional/`) — fork → add or edit `regional/<file>.md` → PR. New jurisdictions welcome; adapt the safe-harbor language to local law and say what you changed and why.
 - **Practices** (`practices/`) — PR against `practices/*.md`. Operational conduct guidance only, not policy templates. External documents may carry their own license (see Provenance below).
 - **Maturity** (`maturity/`) — PR against `maturity/*.md`.
-- **Translations** — add `<locale>.md` alongside `en-US.md` in a `terms/*/` folder (preserve the exact markdown structure), then add the locale to `terms/languages.json`.
+- **Translations** — add `<locale>.md` alongside `en-US.md` in a `terms/*/` folder (preserve the exact markdown structure), then add the locale to `terms/languages.json`. Use correct **[BCP-47](https://www.rfc-editor.org/info/bcp47)** codes (`fr-FR`, `de-DE`, …). ⚠️ Do **not** copy the existing `np-NP` file's code as a pattern — it is a known legacy misnomer for Nepali (BCP-47 is `ne-NP`); a corrective rename is planned and coordinated with policymaker.
 
 ## Provenance rules (please read)
 

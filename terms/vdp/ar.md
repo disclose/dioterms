@@ -1,8 +1,9 @@
 <!--
-  Provenance — disclose.io Framework (dioterms)
-  Source of truth: this repository (https://github.com/disclose/dioterms), CC0-1.0 — see /LICENSE.
-  Authorship & full change history: run `git log --follow` on this file.
-  Mirrors the policymaker.disclose.io template of the same name; dioterms is authoritative for the prose.
+  Provenance — disclose.io Framework (dioterms) · translation
+  Translation of `en-US.md` in this folder, originally mirrored from policymaker.disclose.io (which also serves it directly).
+  Keep in sync with the `en-US` source here and the policymaker template of the same name.
+  Authorship & change history: run `git log --follow` on this file.
+  License: CC0-1.0 (public domain) — see /LICENSE.
   Preserve provenance: always `git mv` — never delete-and-recreate — so blame survives.
 -->
 

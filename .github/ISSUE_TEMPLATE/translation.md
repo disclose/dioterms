@@ -19,4 +19,5 @@ labels: ["translation"]
 **Notes for reviewers (dialect, legal nuance, terminology choices):**
 
 <!-- To contribute directly: add <locale>.md alongside en-US.md in each terms/<template>/ folder,
-     preserve the exact markdown structure, and add the locale to terms/languages.json. -->
+     preserve the exact markdown structure, and add the locale to terms/languages.json.
+     Use a correct BCP-47 code — do NOT copy the existing np-NP code (Nepali should be ne-NP). -->
