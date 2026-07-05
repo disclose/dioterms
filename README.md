@@ -1,12 +1,53 @@
-# dioterms — The disclose.io Framework
+<div align="center">
 
-The canonical, public-domain reference for **vulnerability disclosure policy language** and **program maturity** — maintained by the [disclose.io](https://disclose.io) community.
+<img src="docs/marquee.png" alt="dioterms — the canonical, CC0 language for vulnerability disclosure" width="820">
+
+# dioterms — the disclose.io Framework
+
+### The canonical, public-domain language for vulnerability disclosure — and an open, accountable way to change it.
+
+<p>
+<a href="LICENSE"><img src="https://img.shields.io/github/license/disclose/dioterms?color=5B3AB6&label=license" alt="CC0 1.0"></a>
+<a href="https://policymaker.disclose.io"><img src="https://img.shields.io/badge/powers-policymaker.disclose.io-5B3AB6" alt="Powers policymaker"></a>
+<a href="https://disclose.io/framework/"><img src="https://img.shields.io/badge/live-disclose.io%2Fframework-5B3AB6" alt="Live at disclose.io/framework"></a>
+<a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-5B3AB6" alt="PRs welcome"></a>
+<a href="https://github.com/disclose/dioterms/graphs/contributors"><img src="https://img.shields.io/github/contributors/disclose/dioterms?color=5B3AB6" alt="Contributors"></a>
+<img src="https://img.shields.io/github/last-commit/disclose/dioterms?color=5B3AB6" alt="Last commit">
+</p>
+
+*Part of [the disclose.io Project](https://disclose.io) · [policymaker](https://policymaker.disclose.io) · [directory](https://directory.disclose.io) · [state](https://state.disclose.io) · [dioseal](https://github.com/disclose/dioseal)*
+
+</div>
+
+---
 
 > **Two jobs:** be the *canonical reference language* for vulnerability disclosure, and be an *open-source, accountable way to update and modify it*. See **[MISSION.md](./MISSION.md)** for the mission & vision.
 
-> This repository is the source of truth behind [disclose.io/framework/](https://disclose.io/framework/) and [policymaker.disclose.io](https://policymaker.disclose.io). Everything here is [CC0 1.0](./LICENSE) — public domain. Fork it, adopt it, adapt it, ship it.
+> Everything here is [CC0 1.0](./LICENSE) — public domain. Fork it, adopt it, adapt it, ship it. *(While we've engaged the legal opinion of many, this does not constitute legal advice — please consult your own counsel for suitability in your organisation.)*
 
-> Note: while we've engaged the legal opinion of many, this does not constitute legal advice. Please consult your own counsel for the specific suitability of these terms in your organisation.
+## How it fits together
+
+One source, many consumers, no drift — that single-source-of-truth architecture is the point.
+
+```mermaid
+flowchart LR
+    D["<b>dioterms</b><br/><i>canonical CC0 language</i>"]:::src
+    P["<b>policymaker</b><br/>generate a policy"]:::tool
+    V["<b>dioseal · diosts</b><br/>verify adoption"]:::tool
+    DIR["<b>directory</b><br/>open system of record"]:::data
+
+    D -->|ingested by| P
+    D -->|verified by| V
+    P -->|new programs| DIR
+    V -->|scans| DIR
+    DIR -.->|informs the language| D
+
+    classDef src fill:#5B3AB6,stroke:#43289C,color:#fff;
+    classDef tool fill:#efe9fc,stroke:#5B3AB6,color:#2c2148;
+    classDef data fill:#e8f6ef,stroke:#0f7a4f,color:#123f2c;
+```
+
+Change the language here, and it flows — accountably, via reviewed PRs — into every tool that publishes or verifies it.
 
 ## The four canonical term templates
 
