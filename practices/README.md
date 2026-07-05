@@ -1,23 +1,19 @@
-# disclose.io Framework — Practices
+# practices/
 
-Operational playbooks and implementation guidance for running a vulnerability disclosure program (VDP) or bug bounty program (BBP) in the disclose.io tradition.
+**Operational practices** for conducting and disclosing good-faith security research. Sits alongside the canonical legal terms (`terms/`), program-maturity model (`maturity/`), and regional variants (`regional/`) as the conduct leg of the framework: *terms* describe policy, *maturity* describes the program, *practices* describe conduct.
 
-These guides are **how-to** companions to the `terms/` boilerplate. Where terms give you the legal language to publish, practices give you the operating model to run the program day-to-day.
+These documents are not policy templates — they describe *how* good-faith security research is carried out. They are most useful to:
+
+- **Researchers**, as a reference for the conduct expected of good-faith activity.
+- **Lawmakers and law enforcement**, as a clearer line between legitimate research and malicious activity.
+- **Program operators**, when interpreting researcher conduct under their own VDP.
 
 ## Contents
 
-| Guide | What it covers |
-|-------|----------------|
-| [program-launch.md](./program-launch.md) | From "we're thinking about a VDP" to "we've gone live" — preflight decisions, scoping, approvals |
-| [triage.md](./triage.md) | Intake, severity calibration, deduplication, validation workflow |
-| [coordinated-disclosure.md](./coordinated-disclosure.md) | Disclosure timelines, negotiation, public disclosure mechanics |
-| [safe-harbor-implementation.md](./safe-harbor-implementation.md) | Operationalising safe harbor — aligning Legal, TOS, AUP, and policy |
-| [researcher-relations.md](./researcher-relations.md) | Communication cadence, reputation, escalation, hall of fame |
+| File | Source | License |
+|------|--------|---------|
+| [`good-faith-security-research.md`](./good-faith-security-research.md) | NextJenSecurity (2026) | Reproduced with attribution; see file header for details. |
 
-## Status
+## Contributing
 
-These are living documents. Contributions welcome — open an issue or PR.
-
-## License
-
-CC0 1.0 Universal — public domain dedication. See `LICENSE` in the repo root.
+PRs welcome. Operational guidance is intentionally distinct from policy templates — for the latter see [`../terms/`](../terms/). External practice documents may carry their own license; the dioterms CC0 default applies only to disclose.io–authored content.

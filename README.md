@@ -1,18 +1,32 @@
 # dioterms — The disclose.io Framework
 
-The canonical, public-domain reference for **vulnerability disclosure policy language**, **operational practices**, and **program maturity** — maintained by the [disclose.io](https://disclose.io) community.
+The canonical, public-domain reference for **vulnerability disclosure policy language** and **program maturity** — maintained by the [disclose.io](https://disclose.io) community.
 
 > This repository is the source of truth behind [disclose.io/framework/](https://disclose.io/framework/) and [policymaker.disclose.io](https://policymaker.disclose.io). Everything here is [CC0 1.0](./LICENSE) — public domain. Fork it, adopt it, adapt it, ship it.
 
 > Note: while we've engaged the legal opinion of many, this does not constitute legal advice. Please consult your own counsel for the specific suitability of these terms in your organisation.
 
-## The three pillars
+## The four canonical term templates
 
-| Pillar | What it is | Directory |
-|--------|-----------|-----------|
-| **Terms** | Legal policy boilerplate — VDP, BBP, safe harbor, regional variants | `core-terms-*.md`, `core-terms/`, `regional/`, `simple-safeharbor/`, `archive/` |
-| **Practices** | Operational playbooks for running a VDP/BBP | [`practices/`](./practices/) |
-| **Maturity** | diostatus — the 6-level program maturity model | [`maturity/`](./maturity/) |
+These four live under [`terms/`](./terms/) and mirror [policymaker.disclose.io](https://policymaker.disclose.io) 1:1. They are what people modify, comment on, and PR — the source of truth for the live renders policymaker produces.
+
+| Template | When to use | Path |
+|----------|-------------|------|
+| **[VDP](./terms/vdp/)** | Vulnerability disclosure policy without a specified coordinated-disclosure window | [`terms/vdp/`](./terms/vdp/) |
+| **[VDP with CVD](./terms/vdp-with-cvd/)** | Same, with a stated coordinated-disclosure window (`{{disclosure_window}} days`) | [`terms/vdp-with-cvd/`](./terms/vdp-with-cvd/) |
+| **[Safe Harbor](./terms/safe-harbor/)** | Standalone full safe-harbor clause — attach to an existing policy | [`terms/safe-harbor/`](./terms/safe-harbor/) |
+| **[Simple Safe Harbor](./terms/simple-safe-harbor/)** | Condensed safe-harbor clause for quick adoption | [`terms/simple-safe-harbor/`](./terms/simple-safe-harbor/) |
+
+Each is provided in `en-US`, `ar`, and `np-NP` (see [`terms/languages.json`](./terms/languages.json)). Translations are welcomed via PR — see [`terms/README.md`](./terms/README.md).
+
+## Other content
+
+| Directory | Purpose |
+|-----------|---------|
+| [`bbp/`](./bbp/) | **Bug Bounty Program policy template** — a superset of the VDP with rewards and scope language. Not (yet) carried by policymaker; retained here as a fifth canonical for community use. English-only until translations are contributed. |
+| [`regional/`](./regional/) | **Regional variants** contributed by PSIRTs, disclosure platforms, policy advocates, and vendor program operators. Adapts safe-harbor language to local legal and regulatory context (USA, CAN, BEL, NLD, CHE; AUS/GBR/NZD drafts). |
+| [`maturity/`](./maturity/) | **diostatus** — the 6-level program maturity model. Findable → Communicating → Not hostile → Explicitly safe → Accountable. |
+| [`archive/`](./archive/) | Deprecated or historical content preserved for reference. Includes the old modular-fragments folder (`core-terms/`), the 2020 US-elections variant, and the pre-split generic terms. |
 
 ## Quick Links
 
@@ -22,34 +36,6 @@ The canonical, public-domain reference for **vulnerability disclosure policy lan
 | Canonical reference site | [disclose.io/framework/](https://disclose.io/framework/) |
 | Community forum | [community.disclose.io](https://community.disclose.io) |
 | Compare real-world programs | [disclose.io/programs](https://disclose.io/programs) |
-
-## Navigating the terms
-
-- **Core terms** — primary documents. Maximum flexibility with bilateral safety, readability, and accommodation of varying legal environments. [BBP terms](./core-terms-bbp.md) are a superset of [VDP terms](./core-terms-vdp.md) with additional rewards/scope fields. They are kept separate to avoid ambiguity.
-- **[Core modules](./core-terms/)** — modular section fragments derived from the Core terms, used as the basis for regional/vertical translation.
-- **[Regional terms](./regional/)** — contributed by PSIRTs, disclosure platforms, policy advocates, and vendor program operators. Adapt safe-harbor language to local legal and regulatory context.
-- **[Simple Safe Harbor](./simple-safeharbor/)** — condensed safe-harbor clause designed to add protection language to VDPs and BBPs that are already in place.
-- **[Archive](./archive/)** — deprecated or archived terms preserved for reference.
-
-## Navigating the practices
-
-Operational how-to guidance for running a program day-to-day — the counterpart to the legal text in `terms/`. Current stubs:
-
-- [program-launch.md](./practices/program-launch.md) — preflight decisions, scoping, approvals, go-live
-- [triage.md](./practices/triage.md) — intake, severity, deduplication, validation, communication
-- [coordinated-disclosure.md](./practices/coordinated-disclosure.md) — timelines, negotiation, public disclosure, multi-party
-- [safe-harbor-implementation.md](./practices/safe-harbor-implementation.md) — aligning Legal, TOS/AUP, platform agreements
-- [researcher-relations.md](./practices/researcher-relations.md) — communication cadence, recognition, escalation
-
-These pages are intentionally thin starting points. Community contribution fills them in over time — [open a PR](https://github.com/disclose/dioterms/pulls).
-
-## Navigating the maturity model
-
-**diostatus** is a 6-level self-assessment describing how prepared an organisation is to receive and handle external vulnerability reports.
-
-**Findable → Communicating → Not hostile → Explicitly safe → Accountable.**
-
-See [maturity/](./maturity/) for the per-level definitions and progression guide.
 
 ## About Safe Harbor
 
@@ -82,11 +68,11 @@ Policies missing any of the core tenets but containing a good-faith non-pursuit 
 
 ## Contributing
 
-- Regional variants — fork → add `regional/XXX-core-terms.md` → PR
-- Core terms changes — RFC-style: open a GitHub Discussion, then a PR
-- Practices — PR against `practices/*.md`
-- Maturity — PR against `maturity/*.md`
-- Translations — fork → add locale files → PR
+- **Core term language** — policymaker treats these four templates as authoritative for its live render; edits to [`terms/`](./terms/) flow into policymaker via its next release. Substantive changes: open a GitHub Discussion first, then a PR.
+- **BBP template** — PR against [`bbp/`](./bbp/).
+- **Regional variants** — fork → add `regional/XXX-core-terms.md` → PR.
+- **Maturity model** — PR against [`maturity/*.md`](./maturity/).
+- **Translations** — add locale files (`ar.md`, `np-NP.md`, etc.) alongside `en-US.md` in any [`terms/*/`](./terms/) folder and update [`terms/languages.json`](./terms/languages.json).
 
 `CODEOWNERS` routes reviews to the appropriate team.
 
