@@ -17,14 +17,14 @@ These four live under [`terms/`](./terms/) and mirror [policymaker.disclose.io](
 | **[Safe Harbor](./terms/safe-harbor/)** | Standalone full safe-harbor clause — attach to an existing policy | [`terms/safe-harbor/`](./terms/safe-harbor/) |
 | **[Simple Safe Harbor](./terms/simple-safe-harbor/)** | Condensed safe-harbor clause for quick adoption | [`terms/simple-safe-harbor/`](./terms/simple-safe-harbor/) |
 
-Each is provided in `en-US`, `ar`, and `np-NP` (see [`terms/languages.json`](./terms/languages.json)). Translations are welcomed via PR — see [`terms/README.md`](./terms/README.md).
+Each is provided in `en-US`, `ar`, and `ne-NP` (see [`terms/languages.json`](./terms/languages.json)). Translations are welcomed via PR — see [`terms/README.md`](./terms/README.md).
 
 ## Other content
 
 | Directory | Purpose |
 |-----------|---------|
-| [`bbp/`](./bbp/) | **Bug Bounty Program policy template** — a superset of the VDP with rewards and scope language. Not (yet) carried by policymaker; retained here as a fifth canonical for community use. English-only until translations are contributed. |
-| [`regional/`](./regional/) | **Regional variants** contributed by PSIRTs, disclosure platforms, policy advocates, and vendor program operators. Adapts safe-harbor language to local legal and regulatory context (USA, CAN, BEL, NLD, CHE; AUS/GBR/NZD drafts). |
+| [`terms/bbp/`](./terms/bbp/) | **Bug Bounty Program policy template** — a superset of the VDP with rewards and scope language. Lives under `terms/` as a fifth canonical (not carried by policymaker). English-only until translations are contributed. |
+| [`regional/`](./regional/) | **Regional variants** contributed by PSIRTs, disclosure platforms, policy advocates, and vendor program operators. Adapts safe-harbor language to local legal and regulatory context (USA, CAN, BEL, NLD, CHE; AUS, GBR, NZL marked draft in their file headers). |
 | [`maturity/`](./maturity/) | **diostatus** — the 6-level program maturity model. Findable → Communicating → Not hostile → Explicitly safe → Accountable. |
 | [`practices/`](./practices/) | **Operational practices** — conduct guidance for good-faith research. Currently: [accepted practices for good-faith security research](./practices/good-faith-security-research.md). |
 | [`archive/`](./archive/) | Deprecated or historical content preserved for reference. Includes the old modular-fragments folder (`core-terms/`), the 2020 US-elections variant, and the pre-split generic terms. |
@@ -76,10 +76,10 @@ Policies missing any of the core tenets but containing a good-faith non-pursuit 
 See **[CONTRIBUTING.md](./CONTRIBUTING.md)** for the full guide — provenance rules, the RFC flow for term-wording changes, and how renames must be coordinated with downstream consumers. In brief:
 
 - **Core term language** — policymaker treats these four templates as authoritative for its live render; edits to [`terms/`](./terms/) flow into policymaker via its next release. Substantive changes: open a GitHub Discussion first, then a PR.
-- **BBP template** — PR against [`bbp/`](./bbp/).
-- **Regional variants** — fork → add `regional/XXX-core-terms.md` → PR.
+- **BBP template** — PR against [`terms/bbp/`](./terms/bbp/).
+- **Regional variants** — fork → add `regional/<ISO3>-core-terms.md` → PR.
 - **Maturity model** — PR against [`maturity/*.md`](./maturity/).
-- **Translations** — add locale files (`ar.md`, `np-NP.md`, etc.) alongside `en-US.md` in any [`terms/*/`](./terms/) folder and update [`terms/languages.json`](./terms/languages.json).
+- **Translations** — add locale files (`ar.md`, `ne-NP.md`, etc.) alongside `en-US.md` in any [`terms/*/`](./terms/) folder and update [`terms/languages.json`](./terms/languages.json).
 
 `CODEOWNERS` routes reviews to the appropriate team.
 

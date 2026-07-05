@@ -15,7 +15,6 @@ pillars:
     description: "The four canonical policy templates (mirrored to policymaker.disclose.io) plus BBP, regional variants, and archive."
     paths:
       - terms/
-      - bbp/
       - regional/
       - archive/
 

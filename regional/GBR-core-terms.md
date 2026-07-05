@@ -4,6 +4,7 @@
   Original contributor(s) & change history: run `git log --follow` on this file.
   License: CC0-1.0 (public domain) — see /LICENSE — unless a contributor header below states otherwise.
   Adapts disclose.io safe-harbor language to a specific legal/regulatory jurisdiction.
+  Status: draft — community review pending (renamed from *-draft.md; status now tracked here, not in the filename).
 -->
 
 # Introduction

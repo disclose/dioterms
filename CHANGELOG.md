@@ -6,6 +6,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+### Phase B — structural standardization (2026-07-05, all `git mv` — blame preserved)
+- `bbp/en-US.md` → `terms/bbp/en-US.md` — BBP now lives under `terms/` with the other term sets (no longer a top-level orphan). `disclose/website` `preprocess-framework.js` + submodule pin updated in lockstep.
+- Regional `-draft` suffix retired — `AUS-core-terms-draft.md` → `AUS-core-terms.md`, `GBR-core-terms-draft.md` → `GBR-core-terms.md`; draft status now tracked in each file's provenance header, not the filename.
+- `NZD-core-terms-draft.md` → `NZL-core-terms.md` — corrected the country code (`NZD` is a currency code; New Zealand is `NZL`).
+- Locale `np-NP` → `ne-NP` across all four canonical folders + `terms/languages.json` — corrected the BCP-47 code for Nepali (`np` is a country code; Nepali is `ne`). **Keep policymaker's locale list aligned.**
+- `MISSION.md` added; `metadata.yaml`, `CONTRIBUTING.md`, `CODEOWNERS`, `README.md`, `terms/README.md`, and templates updated to the new paths.
+- Note: renaming `bbp/en-US.md` → `terms/bbp/en-US.md` breaks any external `raw.githubusercontent.com` hotlink to the old path — an accepted, deliberate cost of consolidating BBP under `terms/`.
+
 ### Added
 - `terms/` — the four canonical term templates mirrored 1:1 with policymaker.disclose.io's `gh-pages` templates: `terms/vdp/`, `terms/vdp-with-cvd/`, `terms/safe-harbor/`, `terms/simple-safe-harbor/`. Each provided in `en-US`, `ar`, and `np-NP`.
 - `terms/vdp/*` — the plain VDP template (no coordinated-disclosure window) that was previously missing from dioterms but carried by policymaker.
