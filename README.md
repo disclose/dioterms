@@ -2,6 +2,8 @@
 
 The canonical, public-domain reference for **vulnerability disclosure policy language** and **program maturity** — maintained by the [disclose.io](https://disclose.io) community.
 
+> **Two jobs:** be the *canonical reference language* for vulnerability disclosure, and be an *open-source, accountable way to update and modify it*. See **[MISSION.md](./MISSION.md)** for the mission & vision.
+
 > This repository is the source of truth behind [disclose.io/framework/](https://disclose.io/framework/) and [policymaker.disclose.io](https://policymaker.disclose.io). Everything here is [CC0 1.0](./LICENSE) — public domain. Fork it, adopt it, adapt it, ship it.
 
 > Note: while we've engaged the legal opinion of many, this does not constitute legal advice. Please consult your own counsel for the specific suitability of these terms in your organisation.
