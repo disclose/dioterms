@@ -15,7 +15,7 @@
 <img src="https://img.shields.io/github/last-commit/disclose/dioterms?color=5B3AB6" alt="Last commit">
 </p>
 
-*Part of [the disclose.io Project](https://disclose.io) · [policymaker](https://policymaker.disclose.io) · [directory](https://directory.disclose.io) · [state](https://state.disclose.io) · [dioseal](https://github.com/disclose/dioseal)*
+*Part of **[the disclose.io Project](https://disclose.io)** — the open, vendor-neutral infrastructure for vulnerability disclosure. [Browse the ecosystem →](https://github.com/disclose)*
 
 </div>
 
