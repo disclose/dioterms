@@ -3,6 +3,11 @@ description: "Canonical, public-domain reference for vulnerability disclosure po
 license: "CC0-1.0"
 repository: "https://github.com/disclose/dioterms"
 website: "https://disclose.io/framework/"
+contributing: "CONTRIBUTING.md"
+provenance:
+  policy: "Every term file carries an HTML-comment provenance header; deep authorship history lives in git blame. Files are moved with `git mv`, never delete-and-recreate. archive/ is frozen."
+  default_license: "CC0-1.0"
+  exceptions: "Externally-authored documents (e.g. practices/good-faith-security-research.md) retain their own attribution and license as stated in their file header."
 
 pillars:
   - id: terms
@@ -13,6 +18,12 @@ pillars:
       - bbp/
       - regional/
       - archive/
+
+  - id: practices
+    name: "Operational Practices"
+    description: "Conduct guidance for good-faith security research. External documents retain their own attribution and license; see each file's provenance header."
+    paths:
+      - practices/
 
   - id: maturity
     name: "diostatus Maturity Model"

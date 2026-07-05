@@ -26,7 +26,12 @@ Each is provided in `en-US`, `ar`, and `np-NP` (see [`terms/languages.json`](./t
 | [`bbp/`](./bbp/) | **Bug Bounty Program policy template** — a superset of the VDP with rewards and scope language. Not (yet) carried by policymaker; retained here as a fifth canonical for community use. English-only until translations are contributed. |
 | [`regional/`](./regional/) | **Regional variants** contributed by PSIRTs, disclosure platforms, policy advocates, and vendor program operators. Adapts safe-harbor language to local legal and regulatory context (USA, CAN, BEL, NLD, CHE; AUS/GBR/NZD drafts). |
 | [`maturity/`](./maturity/) | **diostatus** — the 6-level program maturity model. Findable → Communicating → Not hostile → Explicitly safe → Accountable. |
+| [`practices/`](./practices/) | **Operational practices** — conduct guidance for good-faith research. Currently: [accepted practices for good-faith security research](./practices/good-faith-security-research.md). |
 | [`archive/`](./archive/) | Deprecated or historical content preserved for reference. Includes the old modular-fragments folder (`core-terms/`), the 2020 US-elections variant, and the pre-split generic terms. |
+
+## Provenance
+
+Every term file carries a `<!-- Provenance — … -->` header naming its source and license — **[CC0 1.0](./LICENSE)** by default; externally-authored documents keep their own attribution (see [`practices/good-faith-security-research.md`](./practices/good-faith-security-research.md)). Deeper authorship and change history live in `git log --follow` on each file, so files are always moved with `git mv` — never delete-and-recreate — to keep blame intact. [`archive/`](./archive/) preserves deprecated terms as-is. See [CONTRIBUTING.md](./CONTRIBUTING.md) for the rules.
 
 ## Quick Links
 
@@ -67,6 +72,8 @@ Policies missing any of the core tenets but containing a good-faith non-pursuit 
 - **Disclosure Policy** (required) — conditions under which researchers may disclose to third parties.
 
 ## Contributing
+
+See **[CONTRIBUTING.md](./CONTRIBUTING.md)** for the full guide — provenance rules, the RFC flow for term-wording changes, and how renames must be coordinated with downstream consumers. In brief:
 
 - **Core term language** — policymaker treats these four templates as authoritative for its live render; edits to [`terms/`](./terms/) flow into policymaker via its next release. Substantive changes: open a GitHub Discussion first, then a PR.
 - **BBP template** — PR against [`bbp/`](./bbp/).

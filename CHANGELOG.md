@@ -17,6 +17,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - `maturity/` — diostatus maturity model as per-level content (`_index.md` + `level-0.md` through `level-5.md`). Migrated from `content/docs/diostatus.md` in disclose/website.
 - `CHANGELOG.md` — this file.
 - `CODEOWNERS` — scoped review routing.
+- `practices/` — operational-conduct pillar, seeded with `good-faith-security-research.md` (originally published by NextJenSecurity, 2026; reproduced with attribution — author retains rights) and `practices/README.md`.
+- `CONTRIBUTING.md` — per-pillar contribution guide covering provenance rules, the RFC flow for term-wording changes, and downstream-consumer coordination.
+- `.github/` — pull-request template plus issue templates (regional variant, translation, practice, maturity feedback) and a Discussions-first config for term-wording RFCs.
+- **Provenance headers** — every term file (`terms/**`, `bbp/**`, `regional/**`) now opens with a standardized `<!-- Provenance — … -->` HTML-comment block (source, license, and a `git log --follow` pointer). Invisible when rendered; verified against the `disclose/website` build.
 
 ### Changed
 - **Reconciled term prose with policymaker (authoritative).** The four canonical templates now match policymaker's `gh-pages` templates byte-for-byte in every supported language.
@@ -24,6 +28,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - `metadata.yaml` — pillars section simplified to `terms` and `maturity`. Added `canonical_templates` section mapping each template to its policymaker counterpart.
 - `CODEOWNERS` — path globs updated to the new layout.
 - "DIOstatus" → "diostatus" casing normalised across README, metadata, CODEOWNERS, and maturity pages.
+- `metadata.yaml` — added the `practices` pillar, a top-level `provenance` policy block, and a `contributing` pointer.
+- README — added a Provenance section, a `practices/` navigation row, and a CONTRIBUTING link.
 
 ### Moved (with `git mv` to preserve blame)
 - `core-terms-vdp.md` → `terms/vdp-with-cvd/en-US.md` (the existing file contained `{{disclosure_window}}` — it was the with-CVD variant).
@@ -32,7 +38,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - `core-terms/` folder (modular section fragments) → `archive/core-terms/`.
 
 ### Removed
-- `practices/` — the operational-playbook pillar with its five "Coming soon" stubs. The pillar never carried substantive content; operational how-to guidance belongs on the disclose.io website, not in the terms repo. Git history preserves the stubs.
+- The five incomplete "Coming soon" practice stubs — `practices/{coordinated-disclosure,program-launch,researcher-relations,safe-harbor-implementation,triage}.md`. They never carried substantive content. The `practices/` pillar is **retained** for the one complete document (good-faith security research); git history preserves the removed stubs.
 
 ### Notes
 - Policymaker (`disclose/policymaker`) is treated as the canonical source for term prose drift; dioterms is re-aligned to policymaker where the two diverge. Once this PR lands, the two are 1:1 and future edits to these templates should happen here first, with policymaker picking them up on its next release.
