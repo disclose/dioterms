@@ -1,3 +1,11 @@
+<!--
+  Provenance — disclose.io Framework (dioterms)
+  Source of truth: this repository (https://github.com/disclose/dioterms), CC0-1.0 — see /LICENSE.
+  Authorship & full change history: run `git log --follow` on this file.
+  Mirrors the policymaker.disclose.io template of the same name; dioterms is authoritative for the prose.
+  Preserve provenance: always `git mv` — never delete-and-recreate — so blame survives.
+-->
+
 # सरल सुरक्षित हार्बर 
 
 यदि तपाइँ तपाइँको सुरक्षा अनुसन्धान को समयमा यो नीति को पालना गर्दै हुनुहुन्छ भने, हामी उक्त कार्यलाई अधिकृत मान्ने हुनेछ। 

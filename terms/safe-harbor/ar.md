@@ -1,3 +1,11 @@
+<!--
+  Provenance — disclose.io Framework (dioterms)
+  Source of truth: this repository (https://github.com/disclose/dioterms), CC0-1.0 — see /LICENSE.
+  Authorship & full change history: run `git log --follow` on this file.
+  Mirrors the policymaker.disclose.io template of the same name; dioterms is authoritative for the prose.
+  Preserve provenance: always `git mv` — never delete-and-recreate — so blame survives.
+-->
+
 ## <p dir='rtl' align='right'> قانون الملاذ الامن</p>
 
 <p dir='rtl' align='right'>
