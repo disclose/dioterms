@@ -129,6 +129,6 @@ See **[CONTRIBUTING.md](./CONTRIBUTING.md)** for the full guide — provenance r
 ## Once you've published your policy
 
 - Add the [disclose.io seal](https://github.com/disclose/dioseal) to your public program brief
-- Submit a PR to add your program to [diodb](https://github.com/disclose/diodb)
+- Add your program at [directory.disclose.io](https://directory.disclose.io) — the live system of record
 - Let the world know you've joined the initiative
 - Contribute back to the framework you just adopted
