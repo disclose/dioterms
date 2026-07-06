@@ -74,6 +74,8 @@ Each is provided in `en-US`, `ar`, and `ne-NP` (see [`terms/languages.json`](./t
 
 ## Provenance
 
+**Where these terms came from:** [history.disclose.io](https://history.disclose.io) is the sourced provenance record for the dioterms — it traces the language back to its earliest internet-verifiable ancestor (a 2014 Bugcrowd repository, roughly four years before the disclose.io brand) with every claim anchored to a live archive.
+
 Every term file carries a `<!-- Provenance — … -->` header naming its source and license — **[CC0 1.0](./LICENSE)** by default; externally-authored documents keep their own attribution (see [`practices/good-faith-security-research.md`](./practices/good-faith-security-research.md)). Deeper authorship and change history live in `git log --follow` on each file, so files are always moved with `git mv` — never delete-and-recreate — to keep blame intact. [`archive/`](./archive/) preserves deprecated terms as-is. See [CONTRIBUTING.md](./CONTRIBUTING.md) for the rules.
 
 ## Quick Links
@@ -82,6 +84,7 @@ Every term file carries a `<!-- Provenance — … -->` header naming its source
 |-|-|
 | Generate a personalised policy | [policymaker.disclose.io](https://policymaker.disclose.io) |
 | Canonical reference site | [disclose.io/framework/](https://disclose.io/framework/) |
+| Where the terms came from | [history.disclose.io](https://history.disclose.io) |
 | Community forum | [community.disclose.io](https://community.disclose.io) |
 | Compare real-world programs | [disclose.io/programs](https://disclose.io/programs) |
 
