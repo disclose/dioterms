@@ -10,9 +10,7 @@ These documents are not policy templates — they describe *how* good-faith secu
 
 ## Contents
 
-| File | Source | License |
-|------|--------|---------|
-| [`good-faith-security-research.md`](./good-faith-security-research.md) | NextJenSecurity (2026) | Reproduced with attribution; see file header for details. |
+No documents currently published here. The prior entry (NextJenSecurity's good-faith-research guidance) was taken down 2026-07-08 at the author's request pending a revised version; it will return here once republished.
 
 ## Contributing
 
