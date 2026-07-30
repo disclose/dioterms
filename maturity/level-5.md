@@ -27,4 +27,3 @@ diostatus stops at 5 intentionally — the jump from "no program" to Level 5 is 
 - Public transparency reports
 - Participation in industry-wide CVD coordination (CERT/CC, national CSIRTs, multi-party disclosure)
 
-See [practices/](../practices/) for operational guidance beyond the policy surface.

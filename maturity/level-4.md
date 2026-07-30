@@ -25,4 +25,4 @@ What's still missing at Level 4: public accountability on *disclosure timing*. T
 
 ## Path to Level 5
 
-Add a proactive, public coordinated-disclosure timeline (typically 90 days) with a defined process for extensions. See [practices/coordinated-disclosure.md](../practices/coordinated-disclosure.md) for implementation guidance.
+Add a proactive, public coordinated-disclosure timeline (typically 90 days) with a defined process for extensions.
